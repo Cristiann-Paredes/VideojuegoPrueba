@@ -15,43 +15,45 @@ public class Videojuego {
         this.empresa = empresa;
     }
 
-    //generamos los setters and getters
+    //Creación  los setters and getters
+
+    //getter para el nombre
     public String getNombre() {
         return nombre;
     }
-
+    //setter para el valor de nombre
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-
+    //getter para la categoria
     public String getCategoria() {
         return categoria;
     }
-
+    //setter para el valor de categoria
     public void setCategoria(String categoria) {
         this.categoria = categoria;
     }
-
+    //getter para el año
     public int getAnio() {
         return anio;
     }
-
+    //setter para el valor de año
     public void setAnio(int anio) {
         this.anio = anio;
     }
-
+    //getter para el pais
     public String getPais() {
         return pais;
     }
-
+    //setter para el valor de pais
     public void setPais(String pais) {
         this.pais = pais;
     }
-
+    //getter para la empresa
     public String getEmpresa() {
         return empresa;
     }
-
+    //setter para el valor de empresa
     public void setEmpresa(String empresa) {
         this.empresa = empresa;
     }
